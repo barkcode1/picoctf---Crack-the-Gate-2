@@ -9,7 +9,7 @@ Like the last problem, I quickly checked the source code. Expectedly however, I 
 I turned my attention to the password list. It seemed I could just see which password worked.\
 \
 Going to burpsuite, I set up an intruder sniper attack to loop throughout all the passwords.\
-As said by the description however, I was met with 429 errors, which represented a "too many requests" error.\
+As said by the description however, I was met with a 429 error, which represented a "too many requests" error.\
 \
 I first attempted to bypass this by changing my user-agent in the header in case it was tracking through there. Unfortunately, that didn't seem to work.\
 \
