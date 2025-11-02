@@ -18,6 +18,13 @@ I made a second list of numbers so it would loop through different ip address in
 \
 After seeing every response give 200, I knew I had solved it. I looped through all the responses, with all but one giving: ```"success":false```\
 Luckily though, one response gave the flag: \
-```"success":true,"email":"ctf-player@picoctf.org","firstName":"pico","lastName":"player","flag":"picoCTF{xff_byp4ss_brut3_ff36dbbc}"```
+```
+{
+  "success":true,
+  "email":"ctf-player@picoctf.org",
+  "firstName":"pico","lastName":"player",
+  "flag":"picoCTF{xff_byp4ss_brut3_ff36dbbc}"
+}
+```
 
 
