@@ -22,7 +22,8 @@ Luckily though, one response gave the flag: \
 {
   "success":true,
   "email":"ctf-player@picoctf.org",
-  "firstName":"pico","lastName":"player",
+  "firstName":"pico",
+  "lastName":"player",
   "flag":"picoCTF{xff_byp4ss_brut3_ff36dbbc}"
 }
 ```
