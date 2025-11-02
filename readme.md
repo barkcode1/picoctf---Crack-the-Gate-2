@@ -16,7 +16,7 @@ I first attempted to bypass this by changing my user-agent in the header in case
 My second idea was much better however, which was to change my ip address. Googling up the exact command gave me ```X-Forwarded-For```\
 I made a second list of numbers so it would loop through different ip address in the intruder attack - specifically the pitchfork attack.\
 \
-After seeing every response give 200, I knew I had solved it. I looped through all the responses, with all most giving: ```"success":false```\
+After seeing every response give 200, I knew I had solved it. I looped through all the responses, with all but one giving: ```"success":false```\
 Luckily though, one response gave the flag: \
 ```"success":true,"email":"ctf-player@picoctf.org","firstName":"pico","lastName":"player","flag":"picoCTF{xff_byp4ss_brut3_ff36dbbc}"```
 
