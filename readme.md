@@ -17,6 +17,7 @@ My second idea was much better however, which was to change my ip address. Googl
 I made a second list of numbers so it would loop through different ip address in the intruder attack - specifically the pitchfork attack.\
 \
 After seeing every response give 200, I knew I had solved it. I looped through all the responses, with all most giving: ```"success":false```\
-Luckily though, one response gave the flag: ```"success":true,"email":"ctf-player@picoctf.org","firstName":"pico","lastName":"player","flag":"picoCTF{xff_byp4ss_brut3_ff36dbbc}"```
+Luckily though, one response gave the flag: \
+```"success":true,"email":"ctf-player@picoctf.org","firstName":"pico","lastName":"player","flag":"picoCTF{xff_byp4ss_brut3_ff36dbbc}"```
 
 
